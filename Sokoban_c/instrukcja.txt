@@ -1,0 +1,6 @@
+Build:
+    gcc -O3 game.c map.c utils.c -o game
+
+Run:
+    export SOKOBAN_PATH=/path/to/root/of/project
+    ./game
