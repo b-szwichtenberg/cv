@@ -1,0 +1,36 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <link rel="stylesheet" type="text/css" href="{% static 'styl2.css' %}">
+</head>
+<body>
+    <div id="main">
+        <header>Biblioteka Gier</header>
+        <nav>
+            <br>
+            <a href="/" class="a1">Strona Główna</a><br><br>
+            <a href="/pokaz_rekordy/" class="a1">Gry</a><br><br>
+            <a href="/pokaz_adres/" class="a1">Adresy</a><br><br>
+            <a href="/pokaz_wydawca/" class="a1">Wydawcy</a><br><br>
+            <a href="/pokaz_producent/" class="a1">Producenci</a><br><br>
+            <a href="/pokaz_gatunek/" class="a1">Gatunki</a><br><br>
+            <a href="/pokaz_gra_gatunek/" class="a1">Gatunki Gier</a><br><br>
+            <a href="/pokaz_polka/" class="a1">Półki</a><br><br>
+            <a href="/pokaz_gra_polka/" class="a1">Zawartość Półek</a>
+        </nav>
+        <section>
+            <h1>Edytuj adres</b></h1>
+            <br>
+            {% csrf_token %}
+            <form method="post">
+                {{  form  }}<br><br>
+                <button class="button4" type="submit">Potwierdź</button>
+                <a href="/pokaz_adres/"><button class="button5">Anuluj</button></a>
+            </form>
+        </section>
+        <footer>Błażej Szwichtenberg | 2022</footer>
+    </div>
+</body>
+</html>

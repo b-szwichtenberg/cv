@@ -1,0 +1,98 @@
+body{
+    /*background-image: url(cien.png);*/
+    background-color: violet;
+    background-repeat: repeat-x;
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: headerFont;
+    src: url(LANENAR_-webfont.woff);
+  }
+
+  header {
+    width: 1100px;
+    height: 140px;
+    background-color: #131f39;
+    text-align: center;
+    color: white;
+    font-size: 100px;
+    font-family: headerFont;
+}
+
+
+#main{
+    width: 1100px;
+    margin: 0 auto;
+    background-color: #071224;
+}
+
+
+nav{
+    float: left;
+    width: 300px;
+    min-height: 50px;
+    /*padding-top: 5px;
+    padding-left: 5px;
+    margin-top:20px;*/
+    background-color: green;
+    text-align: center;
+}
+
+section {
+    float: left;
+    background-color: lightcoral;
+    width: 795px;
+    min-height: 300px;
+    padding-top: 5px;
+    padding-left: 5px;
+    background-color: #131f39;
+    color: white;
+}
+
+footer {
+    background-color: black;
+    width: 1100px;
+    text-align: center;
+    clear:both;
+    color: white;
+}
+
+p {line-height:5px;}
+
+.button1 {
+    float: right;
+    background-color: #3b43ab;
+    border: 1px solid #3b43ab;
+    color: white;
+    text-align: center;
+    padding: 8px 13px;
+    font-size: 11px;
+    cursor: pointer;
+    border-radius: 15px;
+  }
+
+.button2 {
+    float: right;
+    background-color: #b42d33;
+    border: 1px solid #b42d33;
+    color: white;
+    text-align: center;
+    padding: 8px 13px;
+    font-size: 11px;
+    cursor: pointer;
+    border-radius: 15px;
+  }
+
+.button3 {
+    float: right;
+    background-color: #1e8b1e;
+    border: 1px solid #1e8b1e;
+    color: white;
+    text-align: center;
+    padding: 8px 13px;
+    font-size: 11px;
+    cursor: pointer;
+    border-radius: 15px;
+}

@@ -1,0 +1,27 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <link rel="stylesheet" type="text/css" href=" {% static 'styl.css' %} ">
+</head>
+<body>
+    <div id="main">
+        <header></header>
+        <nav>
+            menu
+        </nav>
+        <section>
+            <h1>Witaj w <b>aplikacji!!!</b></h1>
+            <p>{{  napis  }}</p>
+            <br>
+            <p>Oceniłeś/-aś {{  ile1  }} gier</p>
+
+            {% for gra in gry %}
+                <p>{{  gra.tytul  }}</p>
+            {% endfor %}
+        </section>
+        <footer>Aplikacje bazodanowe</footer>
+    </div>
+</body>
+</html>

@@ -1,0 +1,48 @@
+body{
+    /*background-image: url(cien.png);*/
+    background-color: aqua;
+    background-repeat: repeat-x;
+    margin: 0;
+    padding: 0;
+}
+
+#main{
+    width: 900px;
+    margin: 0 auto;
+    background-color: aquamarine;
+}
+
+header {
+    width: 900px;
+    height: 100px;
+    /*background-image: url(naglowek.png);*/
+}
+
+nav{
+    float: left;
+    width: 200px;
+    min-height: 50px;
+    /*padding-top: 5px;
+    padding-left: 5px;
+    margin-top:20px;*/
+    background-color: green;
+    text-align: center;
+}
+
+section {
+    float: left;
+    background-color: lightcoral;
+    width: 695px;
+    min-height: 300px;
+    padding-top: 5px;
+    padding-left: 5px;
+    background-color: brown;
+}
+
+footer {
+    clear:both;
+    background-color: blanchedalmond;
+    width: 900px;
+    border-top: 1px solid black;
+    text-align: center;
+}

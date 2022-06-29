@@ -1,0 +1,132 @@
+body{
+    background-image: url(blue.jpg);
+    background-repeat: repeat-x;
+    margin: 0;
+    padding: 0;
+    background-color: #131f39;
+}
+
+#main{
+    width: 1100px;
+    background-color: #131f39;
+    margin: auto;
+    font-family: font1;
+}
+
+
+@font-face {
+    font-family: headerFont;
+    src: url(LANENAR_-webfont.woff);
+  }
+
+  @font-face {
+    font-family: font1;
+    src: url(PTSans-Regular.ttf);
+  }
+
+  header {
+    width: 1100px;
+    height: 140px;
+    background-color: #071224;
+    color: white;
+    text-align: center;
+    font-size: 100px;
+    font-family: headerFont;
+}
+
+
+nav{
+    width: 300px;
+    float: left;
+    background-color: #131f39;
+    text-align: center;
+    font-size: larger;
+}
+
+section {
+    width: 795px;
+    float: left;
+    background-color: #131f39;
+    color: white;
+    padding-left: 5px;
+}
+
+footer {
+    width: 1100px;
+    background-color: black;
+    text-align: center;
+    clear:both;
+    color: white;
+}
+
+p {line-height:5px;}
+
+.button1 {
+    float: right;
+    background-color: #3b43ab;
+    border: 1px solid #3b43ab;
+    color: white;
+    text-align: center;
+    padding: 8px 13px;
+    font-size: 11px;
+    cursor: pointer;
+    border-radius: 15px;
+  }
+
+.button2 {
+    float: right;
+    background-color: #b42d33;
+    border: 1px solid #b42d33;
+    color: white;
+    text-align: center;
+    padding: 8px 13px;
+    font-size: 11px;
+    cursor: pointer;
+    border-radius: 15px;
+  }
+
+.button3 {
+    float: right;
+    background-color: #1e8b1e;
+    border: 1px solid #1e8b1e;
+    color: white;
+    text-align: center;
+    padding: 8px 13px;
+    font-size: 11px;
+    cursor: pointer;
+    border-radius: 15px;
+}
+
+
+.button4 {
+    background-color: #1e8b1e;
+    border: 1px solid #1e8b1e;
+    color: white;
+    text-align: center;
+    padding: 10px 60px;
+    font-size: 11px;
+    cursor: pointer;
+    border-radius: 15px;
+}
+
+
+.button5{
+    background-color: #b42d33;
+    border: 1px solid #b42d33;
+    color: white;
+    text-align: center;
+    padding: 10px 60px;
+    font-size: 11px;
+    cursor: pointer;
+    border-radius: 15px;
+}
+
+.a1{
+    text-decoration: none;
+    color: white;
+}
+
+.a1:hover {
+    text-decoration: underline;
+    font-size:130%;
+  }
