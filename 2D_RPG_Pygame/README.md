@@ -1,29 +1,24 @@
 Controls:
-
-
+\
 Arrows - Move and navigate menus
-A - Change weapon
-D - Change magic
-Space - Attack with weapon
-W - Use magic
-Shift - Open character menu
-R - Restart game
-F - Save game (after winning or dying)
-
-
-
-
+A - Change weapon\
+D - Change magic\
+Space - Attack with weapon\
+W - Use magic\
+Shift - Open character menu\
+R - Restart game\
+F - Save game (after winning or dying)\
+\
+\
+\
 Goal of the Game:
-
-
+\
 Defeat all enemies on the entire map.
-
-
-
-
+\
+\
+\
 Features in Game:
-
-
+\
 - Collisions with objects and invisible walls
 - All characters have hitboxes
 - Combat using either weapons or magic
