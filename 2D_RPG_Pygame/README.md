@@ -18,7 +18,6 @@ Defeat all enemies on the entire map.
 \
 \
 Features in Game:
-\
 - Collisions with objects and invisible walls
 - All characters have hitboxes
 - Combat using either weapons or magic
